@@ -47,7 +47,7 @@ Every prediction returns the **top 6 features** that influenced that specific sc
 
 The SHAP bar chart reveals which features matter most across all predictions:
 
-![SHAP Bar — Mean Feature Importance](models/shap_bar.png)
+![SHAP Bar — Mean Feature Importance](screenshots/shap_bar.png)
 
 **Key Findings:**
 - **`total_late_payments`** is by far the strongest predictor (mean |SHAP| = 1.03) — a borrower's payment history dominates risk assessment
@@ -59,7 +59,7 @@ The SHAP bar chart reveals which features matter most across all predictions:
 
 The beeswarm plot shows *how* each feature's values push predictions:
 
-![SHAP Beeswarm — Feature Impact Distribution](models/shap_beeswarm.png)
+![SHAP Beeswarm — Feature Impact Distribution](screenshots/shap_beeswarm.png)
 
 **Insights from the beeswarm:**
 - **High `total_late_payments`** (red dots) strongly pushes risk scores right (higher default probability)
